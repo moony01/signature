@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0; box-sizing:border-box;font-family: 'NotoKrR', sans-serif;  font-size:15px; color:#333;} 
+body, input, textarea, select, button, table {font-family: 'NotoKrR', sans-serif; }
+fieldset,img {border:0 none} 
+dl,ul,ol,menu,li {list-style:none} 
+blockquote, q {quotes:none} 
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none} 
+input,select,textarea,button {font-size:100%;vertical-align:middle} 
+button {border:0 none;background-color:transparent;cursor:pointer} 
+table {border-collapse:collapse;border-spacing:0} 
+body {-webkit-text-size-adjust:none} /* 酉고몴�듃 蹂��솚�떆 �룿�듃�겕湲� �옄�룞�솗�� 諛⑹� */ 
+input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; } 
+input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkbox} 
+button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button;} 
+input[type='search']::-webkit-search-cancel-button {-webkit-appearance:none} 
+body {background:#fff} 
+body,th,td,input,select,textarea,button {font-size:15px; line-height:1.5;font-family: 'NotoKrR', sans-serif;  color:#333} /* color媛믪� �뵒�옄�씤媛��씠�뱶�뿉 留욊쾶�궗�슜 */ 
+a {color:#333;text-decoration:none} 
+a:active, a:hover {text-decoration:none} 
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+
+
+#all{}
+#header{ position:relative}
+
+.patten{ background: url(../imgs/patten.png); position: absolute; left:0; right:0; top:0; bottom:0 ; z-index:90}
+
+@media screen and (max-width:600px) {
+	.main_bg{ background:url(../imgs/main-bg2.jpg) no-repeat center top; height:200px; background-size:cover;  } 
+	#contents-box{ padding:20px; }   
+	.title{ text-align:center; font-size:23px; font-weight:700; line-height:28px}   
+	.main_bg h1{ text-align:center; font-size: 25px; font-weight:700; color:#fff; text-shadow:3px 3px 3px rgba(0,0,0,0.5); z-index:100; position:absolute; transform:translate(-50%,-50%); top:50%; left:50%; width:100%}
+	.sns-sc{ overflow: hidden; position:relative; float:left;  }
+	.sign-number2{color:#999999; font-size:15px;  vertical-align:middle; font-weight:700;  margin:0 0 0 5px; display:inline-block}
+	.sign-number2 strong{ color:#ef7509; font-size:20px}
+	.h3-title2{font-size:24px; background:url(../imgs/title-01.png) no-repeat left center; padding:3px 0 3px 28px; float:left}
+	.sign-write-box{ margin:10px 0 0 0; position:relative; overflow:hidden}
+	.sign-form-list li{ margin:5px 0 ; display:block; text-align:left !important; font-size:17px}
+	.sign-form-list li span{ display:block; color:#333; margin:0 10px 0 0 ; padding:0 0 0 10px; text-align:left !important}
+	.sign-form-list li em{ display:block; }
+	.sign-form{ background:#f2f2f2; border:1px solid #dbdbdb; padding:15px 10px; margin:10px 0; }
+	.input-01{ background:#fff; border:1px solid #dbdbdb; height:32px; padding:0 5px; width:100%; margin:1px ;font-size:17px}
+	.select-01{ background:#fff; border:1px solid #dbdbdb; height:32px; padding:0 5px; width:100%; margin:1px;font-size:17px }
+	
+	.sign-total{ text-align:center; margin:10px 0; }
+	.sign-total li{ float:left; width:100%; text-align: center; margin:3px}
+	.sign-total li dl dd{ font-size:28px; font-weight:bold ; line-height:32px; white-space:nowrap}
+				
+	.login-top{ text-align:center; background:#f2f2f2; border:1px solid #dbdbdb; padding:20px 10px; margin:20px 0}
+	.login-top h3{ color:#195ea5; font-size:20px; margin-bottom:10px }
+	.sns-login{ width:100%; }
+	.sns-login li{ border:1px solid #dbdbdb; border-radius:5px; padding:10px; margin:10px 0; background: url(/images/page/arrow-icon.png) no-repeat right center}
+	.sns-login li:hover{ background: url(../imgs/sns/arrow-icon.png) no-repeat right center #f2f2f2}
+	.sns-login li a{ padding:12px 0 12px 63px; font-size:15px; display:block}
+	.kakao-login{ background:url(../imgs/sns/kakao-icon.png) no-repeat left center}
+	.naver-login{ background:url(../imgs/sns/naver-icon.png) no-repeat left center}
+	.facebook-login{ background:url(../imgs/sns/facebook-icon.png) no-repeat left center}
+	.sign-write-box{ margin:10px 0 0 0; position:relative; overflow:hidden}
+	.sign-write-top{ position:relative}
+	.sign-text-box{ border-top:1px solid #dbdbdb; padding:20px 0; margin:20px 0 0 0}
+	.sign-text{ background:#fff; padding:10px 15px; font-size:17px; font-weight:700 }
+	.sign-text em{ font-size:15px; color:#999; line-height:20px }
+	.agree-name{ font-size:17px; text-align:center }
+	.agree-memo1{ font-size:19px; color:#195ea5; font-weight:700;text-align:center; padding:15px 0  }
+	.agree-memo2{ font-size:17px; color:#333; }			
+}
+			
+@media screen and (min-width:600px){
+	.main_bg{ background:url(../imgs/main-bg2.jpg) no-repeat center top; height:380px; background-size:cover;  } 
+	#contents-box{ border:1px solid #dbdbdb; padding:40px; max-width:1000px; margin:20px auto} 
+	.title{ text-align:center; font-size:33px; font-weight:700; line-height:40px}
+	.main_bg h1{ text-align:center; font-size: 45px; font-weight:700; color:#fff; text-shadow:3px 3px 3px rgba(0,0,0,0.5); z-index:100; position:absolute; transform:translate(-50%,-50%); top:50%; left:50%; width:100%}
+	.sns-sc{ overflow: hidden; position:absolute; right:0; top:10px}
+	.sign-number2{color:#999999; font-size:17px; display:inline-block;  vertical-align:middle; font-weight:700; display:inline-block; margin:0 0 0 15px}
+	.sign-number2 strong{ color:#ef7509; font-size:24px}
+	.h3-title2{font-size:24px; background:url(../imgs/title-01.png) no-repeat left center; padding:3px 0 3px 32px; float:left}
+	.sign-write-box{ margin:10px 0 0 0; position:relative; overflow:hidden}
+	  
+	.sign-form{ background:#f2f2f2; border:1px solid #dbdbdb; padding:15px 25px; margin:10px 0; text-align: center;}
+	.sign-form-list li{ margin:5px 0 ; display:inline-block; text-align:left !important}
+	.sign-form-list li span{ display:inline-block; color:#333; margin:0 10px 0 0 ; padding:0 0 0 10px; text-align:left !important}
+	.input-01{ background:#fff; border:1px solid #dbdbdb; height:32px; padding:0 5px; }
+	.select-01{ background:#fff; border:1px solid #dbdbdb; height:32px; padding:0 5px; }
+	   
+	.sign-total{ text-align:center; margin:30px 0; }
+	.sign-total li{ float:left; width:33.3%; text-align:center; }
+	.sign-total li dl dd{ font-size:30px; font-weight:bold ; line-height:32px; white-space:nowrap}
+	   
+	.login-top{ text-align:center; background:#f2f2f2; border:1px solid #dbdbdb; padding:25px; margin:30px 0}
+	.login-top h3{ color:#195ea5; font-size:32px; margin-bottom:10px }
+	   
+	.sns-login{ width:450px; margin:0 auto }
+	.sns-login li{ border:1px solid #dbdbdb; border-radius:5px; padding:10px; margin:10px 0; background: url(../imgs/sns/arrow-icon.png) no-repeat right center}
+	.sns-login li:hover{ background: url(../imgs/sns/arrow-icon.png) no-repeat right center #f2f2f2}
+	.sns-login li a{ padding:12px 0 12px 63px; font-size:17px; display:block}
+	.kakao-login{ background:url(../imgs/sns/kakao-icon.png) no-repeat left center}
+	.naver-login{ background:url(../imgs/sns/naver-icon.png) no-repeat left center}
+	.facebook-login{ background:url(../imgs/sns/facebook-icon.png) no-repeat left center}
+	.sign-write-top{ position:relative}
+	.sign-text-box{ border-top:1px solid #dbdbdb; padding:20px 0; margin:20px 0 0 0}
+	.sign-text{ background:#fff; padding:10px 15px; font-size:17px; font-weight:700 }
+	.sign-text em{ font-size:13px; color:#333; }
+	.agree-name{ font-size:17px; text-align:center }
+	.agree-memo1{ font-size:19px; color:#195ea5; font-weight:700;text-align:center ;padding:15px 0  }
+	.agree-memo2{ font-size:17px; color:#333; }
+}
+
+.textbtn{ border-radius:3px; color:#fff; background:#333; font-size:15px; padding:3px 10px; display:inline-block; vertical-align:middle; cursor:pointer }
+.fb_iframe_widget{ position: absolute !important; right: -4%; top: 50%; transform: translate(-50%, -50%);}
+.signNumber { padding: 0 !important; display: inline-block; font-size: 30px; font-weight: bold; line-height: 32px; white-space: nowrap; }
+
+.sign-total p{ text-align:center; color:#666; padding:20px 0 0 0;}
+.sign-total ul{ overflow:hidden;}
+
+.sign-total li dl{ overflow:hidden; position:relative; padding:0 0 0 68px ; text-align:left; display:inline-block; }
+.sign-total li dl dt{ font-size:15px;}
+
+.sign-total li dl dd em{ font-size:17px; color:#999; }
+.sign-total li dl h4{display:inline-block; text-indent:-9999px; width:56px; border-radius:28px; position:absolute; top:0; left:0; padding:17px 0 ;}
+
+h4.sign-01{ background:url(../imgs/sign-01.png) no-repeat center center #51aec5;}
+h4.sign-02{ background:url(../imgs/sign-02.png) no-repeat 15px center #66a633;}
+h4.sign-03{ background:url(../imgs/sign-03.png) no-repeat center center #e77400;}
+
+.sign-main{ background:url(/imgs/sign-man.png) no-repeat left center; font-size: 13px; line-height:13px; padding:5px 0 5px 34px; display:inline-block; margin:0 10px 0 0; vertical-align:middle}
+.sign-number{ color:#999999; font-size:18px; display:inline-block;  vertical-align:middle; font-weight:700 }
+.sign-number strong{ color:#ef7509; font-size:36px; line-height:36px}
+.sign-cont-box{ padding:0 0 20px 0; border-bottom:1px solid #dbdbdb}
+.h3-title1{ font-size:24px; background:url(../imgs/title-01.png) no-repeat left center; padding:3px 0 3px 32px; border-bottom:1px solid #dbdbdb  }
+.sign-memo{ padding:20px 0}
+.sign-memo img{ display:block; width:100%; margin-bottom:15px }
+dl.file-info dt{ font-size:19px; font-weight:700}
+dl.file-info dd{ padding:10px 0}
+a.down{ display:inline-block; background: url(../imgs/down-icon.png) no-repeat right center #333; color:#fff; padding:5px 31px 5px 10px; color:#fff; border-radius:3px ; margin:3px 0 }
+
+.sign-write-box{ margin:10px 0 0 0; position:relative; overflow:hidden}
+
+#footer{ background:#f2f2f2; padding:15px 15px ; text-align:center; word-break: keep-all}
+
+.privacy{ display:inline-block; border:1px solid #dbdbdb; padding:2px 18px 2px 5px; font-size:13px; border-radius:3px; background: url(../imgs/arrow.png) no-repeat right center  #fff; color:#333}
+/*SNS*/
+
+
+
+
+.sns-sc h4{ font-size:15px; color:#666; display:inline-block; vertical-align:middle; font-weight:200}
+.sns-sc a{ display:inline-block; text-indent:-9999px; width:25px; height:25px;border-radius:3px; }
+
+a.s-facebook {background:url(../imgs/sns/facebook.png)no-repeat center center #989898;}
+a.s-facebook:hover{background-color: #2c4586;   }
+a.s-band {background:url(../imgs/sns/band.png)no-repeat center center #989898;}
+a.s-band:hover { background-color: #3ecd33; }
+a.s-twitter {background:url(../imgs/sns/twitter.png)no-repeat center center #989898; }
+a.s-twitter:hover{background-color: #64abf4; }
+a.s-kakao {background:url(../imgs/sns/kakaot.png)no-repeat center center #989898; ;}
+a.s-kakao:hover{background:url(../imgs/sns/kakaot.png)no-repeat center center #f9e200; }
+
+
+.sign-form p { margin:0 0 20px 0}
+.sign-form p  strong{ color:#195ea5}
+.sign-form-list{ text-align: center}
+
+
+
+
+
+
+.btn-box{ text-align:center; padding:15px 0}
+.btn{ background:#195ea5; color:#fff; font-size:17px; padding:5px 25px; border:none; display:inline-block; border-radius:4px; font-weight:700} 
