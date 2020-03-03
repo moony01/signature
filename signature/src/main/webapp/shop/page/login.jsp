@@ -19,6 +19,10 @@
 
 <script type="text/javascript">
 
+let id = '';
+let nickName = '';
+let email = '';
+
 function loginWithKakao(){
 	console.log("click event!");
 	//<![CDATA[
@@ -30,11 +34,34 @@ function loginWithKakao(){
         Kakao.API.request({
         	url : '/v2/user/me',
         	success : function(res){
-        		alert(JSON.stringify(res));
+        		//alert(JSON.stringify(res));
         		console.log(res.id);
         		console.log(res.properties['nickname']);
         		console.log(res.kakao_account.email);
         		
+         		id = res.id;
+        		nickName = res.properties['nickname'];
+        		email = res.kakao_account.email;
+        		
+        		console.log('id' + id);
+        		console.log('nickName' + nickName);
+        		console.log('email' + email);
+        		
+        		$.ajax({
+        			type : 'POST',
+        			url : '/signature/shop/page/snsLogin',
+        			data : {
+        				'id' : id,
+        				'nickName' : nickName,
+        				'email' : email
+       				},
+       				success : function(){
+       					console.log('data처리 완료');
+       				},
+       				error : function(err){
+       					console.log(err);
+       				}
+        		});
         	}
         });
       },
