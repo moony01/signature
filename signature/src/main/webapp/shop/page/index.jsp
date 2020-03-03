@@ -15,6 +15,10 @@
 
 <title>JSP일본제품 불매 및 친일청산 범국민 서명운동</title>
 
+<!-- LIB -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+<!-- CSS -->
 <link rel="stylesheet" href="/signature/shop/css/common.css" />
 <link rel="stylesheet" href="/signature/shop/css/style.css" />
 </head>
@@ -36,4 +40,33 @@
   			
 </div>
 </body>
+<script type="text/javascript">
+
+$(document).on("click", ".h3-title1", function(){
+	if($(this).next().css("display") == "none"){
+		$(this).next().show();
+		$(this).children("span").text("닫기");
+	}else{
+		$(this).next().hide();
+		$(this).children("span").text("열기");
+	}
+});
+
+function share_sns(type,url,title){
+    if(type == 1){
+    var popOption = "width=100, height=100, resizable=no, scrollbars=no, status=no;";
+    window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(url)+'&t='+encodeURIComponent(title),"pop",popOption);
+    }
+	if(type == 2){
+    var popOption = "width=500, height=500, resizable=no, scrollbars=no, status=no;";
+    window.open('https://story.kakao.com/share?url='+encodeURIComponent(url)+'&t='+encodeURIComponent(title),"pop",popOption);
+    }
+	if(type == 3){
+    var popOption = "width=350, height=500, resizable=no, scrollbars=no, status=no;";
+    window.open('https://band.us/plugin/share?body='+url+'&title='+encodeURIComponent(title),"pop",popOption);
+    }
+}
+
+</script>
+
 </html>

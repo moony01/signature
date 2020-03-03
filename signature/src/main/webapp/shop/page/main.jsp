@@ -90,13 +90,13 @@
 	    <h3 class="h3-title2" >온라인 서명하기</h3>
 	    <div class="sns-sc">
 	        <h4>SNS 공유하기</h4>
-	        <a href="javaScript:share_sns(1,'https://no-jap.org/','동학농민혁명 125주년 및 3.1운동 100주년일본제품 불매 및 친일청산 범국민 서명운동')" 
+	        <a href="javaScript:share_sns(1,'http://localhost:8080/','동학농민혁명 테스트 사이트')" 
 			class="s-facebook" data-service="facebook" data-title="">페이스북</a>
 	
-			<a href="javaScript:share_sns(4,'https://no-jap.org/','동학농민혁명 125주년 및 3.1운동 100주년일본제품 불매 및 친일청산 범국민 서명운동')" 
+			<a href="javaScript:share_sns(2,'http://localhost:8080/','동학농민혁명 테스트 사이트')" 
 			class="s-kakao" data-service="kakao" data-title="">카카오톡</a>
 	
-			<a href="javaScript:share_sns(5,'https://no-jap.org/','동학농민혁명 125주년 및 3.1운동 100주년일본제품 불매 및 친일청산 범국민 서명운동')" 
+			<a href="javaScript:share_sns(3,'http://localhost:8080/','동학농민혁명 테스트 사이트')" 
 			class="s-band" data-service="band" data-title="">네이버밴드</a>
 	    </div>
 	</div>
@@ -113,7 +113,7 @@
 	            </div>
 				
 	        </div>
-			<a href="./login" target="_self" style="background: #195ea5; font-size: 15px; margin-top: 2em; padding: 3px 15px; display: inline-block; border-radius: 4px; color: #fff;">온라인서명하기</a>
+			<a class="signBtn" href="./login" target="_self">온라인서명하기</a>
 	    </div>
 		
 	</form>

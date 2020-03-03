@@ -20,8 +20,6 @@ a {color:#333;text-decoration:none}
 a:active, a:hover {text-decoration:none} 
 address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 
-
-#all{}
 #header{ position:relative}
 
 .patten{ background: url(../imgs/patten.png); position: absolute; left:0; right:0; top:0; bottom:0 ; z-index:90}
@@ -106,6 +104,8 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 	.agree-memo2{ font-size:17px; color:#333; }
 }
 
+.signBtn{ background: #195ea5; font-size: 15px; margin-top: 2em; padding: 3px 15px; display: inline-block; border-radius: 4px; color: #fff; }
+
 .textbtn{ border-radius:3px; color:#fff; background:#333; font-size:15px; padding:3px 10px; display:inline-block; vertical-align:middle; cursor:pointer }
 .fb_iframe_widget{ position: absolute !important; right: -4%; top: 50%; transform: translate(-50%, -50%);}
 .signNumber { padding: 0 !important; display: inline-block; font-size: 30px; font-weight: bold; line-height: 32px; white-space: nowrap; }
@@ -139,11 +139,8 @@ a.down{ display:inline-block; background: url(../imgs/down-icon.png) no-repeat r
 #footer{ background:#f2f2f2; padding:15px 15px ; text-align:center; word-break: keep-all}
 
 .privacy{ display:inline-block; border:1px solid #dbdbdb; padding:2px 18px 2px 5px; font-size:13px; border-radius:3px; background: url(../imgs/arrow.png) no-repeat right center  #fff; color:#333}
+
 /*SNS*/
-
-
-
-
 .sns-sc h4{ font-size:15px; color:#666; display:inline-block; vertical-align:middle; font-weight:200}
 .sns-sc a{ display:inline-block; text-indent:-9999px; width:25px; height:25px;border-radius:3px; }
 
@@ -156,15 +153,9 @@ a.s-twitter:hover{background-color: #64abf4; }
 a.s-kakao {background:url(../imgs/sns/kakaot.png)no-repeat center center #989898; ;}
 a.s-kakao:hover{background:url(../imgs/sns/kakaot.png)no-repeat center center #f9e200; }
 
-
 .sign-form p { margin:0 0 20px 0}
 .sign-form p  strong{ color:#195ea5}
 .sign-form-list{ text-align: center}
-
-
-
-
-
 
 .btn-box{ text-align:center; padding:15px 0}
 .btn{ background:#195ea5; color:#fff; font-size:17px; padding:5px 25px; border:none; display:inline-block; border-radius:4px; font-weight:700} 
