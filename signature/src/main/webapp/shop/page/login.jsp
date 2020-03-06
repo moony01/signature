@@ -22,31 +22,30 @@
 let id = '';
 let nickName = '';
 let email = '';
-
+//카카오 로그인 함수
 function loginWithKakao(){
 	console.log("click event!");
 	//<![CDATA[
-    // 사용할 앱의 JavaScript 키를 설정해 주세요.
-    Kakao.init('5d2f5f6c1a49e1c83ec357b2dfe5c376');
+    Kakao.init('5d2f5f6c1a49e1c83ec357b2dfe5c376'); // 사용할 앱의 JavaScript 키를 설정해 주세요.
     Kakao.Auth.login({
       success: function(authObj) {
         //alert(JSON.stringify(authObj));
         Kakao.API.request({
-        	url : '/v2/user/me',
+        	url : '/v2/user/me', //비동기식 경로가 v2로 업데이트됐다??
         	success : function(res){
         		//alert(JSON.stringify(res));
-        		console.log(res.id);
-        		console.log(res.properties['nickname']);
-        		console.log(res.kakao_account.email);
-        		
+        		//console.log(res.id);
+        		//console.log(res.properties['nickname']);
+        		//console.log(res.kakao_account.email);
+
          		id = res.id;
         		nickName = res.properties['nickname'];
         		email = res.kakao_account.email;
-        		
-        		console.log('id' + id);
-        		console.log('nickName' + nickName);
-        		console.log('email' + email);
-        		
+
+        		//console.log('id' + id);
+        		//console.log('nickName' + nickName);
+        		//console.log('email' + email);
+
         		$.ajax({
         			type : 'POST',
         			url : '/signature/shop/page/snsLogin',

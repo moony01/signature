@@ -32,7 +32,7 @@ public class SpringConfiguration {
 		PathMatchingResourcePatternResolver pmrpr = new PathMatchingResourcePatternResolver();
 		sqlSessionFactoryBean.setDataSource(dataSource());
 		sqlSessionFactoryBean.setConfigLocation(pmrpr.getResource("classpath:spring/mybatis-config.xml"));
-		sqlSessionFactoryBean.setMapperLocations(pmrpr.getResources("classpath:*/dao/*Mapper.xml"));
+		sqlSessionFactoryBean.setMapperLocations(pmrpr.getResources("classpath:sign/*/dao/*Mapper.xml"));
 		
 		return sqlSessionFactoryBean.getObject();
 	}

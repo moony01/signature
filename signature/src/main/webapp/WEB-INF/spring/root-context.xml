@@ -10,5 +10,4 @@
 	<context:component-scan base-package="sign.*.bean"/>
 	<context:component-scan base-package="sign.*.dao"/>	
 	<context:component-scan base-package="sign.spring.conf"/>	
-	
 </beans>
