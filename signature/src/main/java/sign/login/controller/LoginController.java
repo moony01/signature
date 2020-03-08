@@ -34,31 +34,25 @@ public class LoginController {
 	@RequestMapping(value="/shop/page/snsLogin")
 	@ResponseBody //json형태로 받을수있음
 	public void snsLogin(@RequestParam Map<String, String> map,
-						 HttpSession session) {
-		
-		//map.put("id", id);
-		//map.put("nickName", nickName);
-		//map.put("email", email);
-		System.out.println("map = "+map);
-		LoginDTO loginDTO = loginService.getUserBy(map);
-		
-		if(loginDTO == null) {
-			System.out.println("데이터 없음");
-			loginService.writeMember(map);
-			LoginDTO loginDTO1 = loginService.getUserBy(map);
-			session.setAttribute("memId", loginDTO1.getId());
-			session.setAttribute("memNickName", loginDTO1.getNickName());
-			session.setAttribute("memEmail", loginDTO1.getEmail());
-			
-			System.out.println("session = " + session);
-		} else {
-			System.out.println("데이터 있음");
-			LoginDTO loginDTO2 = loginService.getUserBy(map);
-			session.setAttribute("memId", loginDTO2.getId());
-			session.setAttribute("memNickName", loginDTO2.getNickName());
-			session.setAttribute("memEmail", loginDTO2.getEmail());
-		}
-		
+	           HttpSession session) {
+
+	  System.out.println("map = "+map);
+	  LoginDTO loginDTO = loginService.getUserBy(map);
+
+	  if(loginDTO == null) {
+	    System.out.println("데이터 없음");
+	    loginService.writeMember(map);
+	  } else {
+	    System.out.println("데이터 있음");
+	  }
+
+	  LoginDTO loginDTO1 = loginService.getUserBy(map);
+	  session.setAttribute("memId", loginDTO1.getId());
+	  session.setAttribute("memNickName", loginDTO1.getNickName());
+	  session.setAttribute("memEmail", loginDTO1.getEmail());
+
+	  System.out.println("session = " + session);
+	  
 	}
 	
 	//서명하기
