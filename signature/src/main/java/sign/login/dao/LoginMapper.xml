@@ -7,6 +7,10 @@
 	</select>
 	
 	<insert id="writeMember" parameterType="member">
-		insert into member (id, nickName, email, logtime) values (#{id}, #{nickName}, #{email}, sysdate);
+		insert into member (id, nickName, email, logtime) values (#{id}, #{nickName}, #{email}, sysdate)
+	</insert>
+	
+	<insert id="signWrite" parameterType="String">
+		insert into signature (name, area1, area2) values (#{agree_name}, #{area1}, #{area2})
 	</insert>
 </mapper>

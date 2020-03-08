@@ -56,6 +56,7 @@ function loginWithKakao(){
        				},
        				success : function(){
        					console.log('data처리 완료');
+       					window.location.href="/signature/shop/page/index";
        				},
        				error : function(err){
        					console.log(err);

@@ -9,4 +9,6 @@ public interface LoginDAO {
 	public LoginDTO getUserBy(Map<String, String> map);
 	
 	public void writeMember(Map<String, String> map);
+
+	public void signWrite(Map<String, String> map);
 }

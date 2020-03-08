@@ -17,13 +17,17 @@ public class LoginDAOMybatis implements LoginDAO {
 
 	@Override
 	public LoginDTO getUserBy(Map<String, String> map) {
-		System.out.println("map = "+map);
 		return sqlSession.selectOne("loginSQL.getUserBy", map);
 	}
 
 	@Override
 	public void writeMember(Map<String, String> map) {
 		sqlSession.insert("loginSQL.writeMember", map);
+	}
+
+	@Override
+	public void signWrite(Map<String, String> map) {
+		sqlSession.insert("loginSQL.signWrite", map);
 	}
 
 

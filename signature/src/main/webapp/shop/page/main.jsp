@@ -120,7 +120,7 @@
 	<!-- logoutForm : END -->
 	
 	<!-- loginForm : START -->
-	<form action="./agree.php" method="post" id="status_login" style="display: none;">
+	<form action="./goSign" method="post" id="status_login" style="display: none;">
 	
 	<input type="hidden" name="_token" value="ejYrNnqWthM6Dzr5db3Ob0smAyhVzvSIIV6svfSN">   
 	<div class="sign-form">
@@ -131,7 +131,7 @@
 	<ul class="sign-form-list">	  
 	    <li>
 	        <span>본인 이름</span> 
-	        <em><input name="agree_name" type="text" class="input-01" id="agree_name"  placeholder="이름기입(생략가능)" value=""></em>
+	        <em><input name="agree_name" type="text" class="input-01" id="agree_name"  placeholder="이름기입(생략가능)" value="${memNickName}"></em>
 	    </li>
 	    
 	    <li>
@@ -209,3 +209,11 @@
   			
 </div>
 <!-- CONTENT BOX : END -->
+
+
+
+
+
+
+
+

@@ -10,4 +10,6 @@ public interface LoginService {
 
 	public void writeMember(Map<String, String> map);
 
+	public void signWrite(Map<String, String> map);
+
 }

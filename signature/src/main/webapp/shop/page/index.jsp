@@ -42,6 +42,19 @@
 </body>
 <script type="text/javascript">
 
+
+
+$(document).ready(function() {
+	let memId = '${memId}';
+	let memNickName = '${memNickName}';
+	let memEmail = '${memEmail}';
+
+	console.log("session = " + memId + ", " + memNickName + ", " + memEmail);
+	
+	checkMemId(memId, memNickName);
+});
+
+
 $(document).on("click", ".h3-title1", function(){
 	if($(this).next().css("display") == "none"){
 		$(this).next().show();
@@ -65,6 +78,15 @@ function share_sns(type,url,title){
     var popOption = "width=350, height=500, resizable=no, scrollbars=no, status=no;";
     window.open('https://band.us/plugin/share?body='+url+'&title='+encodeURIComponent(title),"pop",popOption);
     }
+}
+
+function checkMemId(memId, memNickName){
+	console.log("채크 함수 실행" + memId+ memNickName);
+	
+	if(memId != '') {
+		$("#status_logout").hide();
+		$("#status_login").show();
+	}
 }
 
 </script>
