@@ -137,7 +137,7 @@
 	    <li>
 	        <span>거주 지역</span>
 	        <em>
-	        	<select name="area1" class="select-01" id="area1" >
+	        	<select name="area1" class="select-01" id="area1" onchange="selectAdrs()">
 	          		<option value="">광역시·도 선택</option>
 	        	  	<option value="11" >서울특별시</option>
 	        	  	<option value="26" >부산광역시</option>
@@ -161,29 +161,11 @@
 	
 			<em><input name="area2" type="text" class="select-01" id="area2"  placeholder="주소입력" value="" style="width: 220px;"></em>
 	
-	        <!--<em id="areaList">
-	        	<select name="area2" class="select-01" id="area2">
+	        <em id="areaList">
+	        	<select name="area3" class="select-01" id="area3">
 	          		<option value="">시·군·구 선택</option>
-	        		<option value="강릉시">강릉시</option>
-	        		<option value="고성군">고성군</option>
-	        		<option value="동해시">동해시</option>
-	        		<option value="삼척시">삼척시</option>
-	        		<option value="속초시">속초시</option>
-	        		<option value="양구군">양구군</option>
-	        		<option value="양양군">양양군</option>
-	        		<option value="영월군">영월군</option>
-	        		<option value="원주시">원주시</option>
-	        		<option value="인제군">인제군</option>
-	        		<option value="정선군">정선군</option>
-	        		<option value="철원군">철원군</option>
-	        		<option value="춘천시">춘천시</option>
-	        		<option value="태백시">태백시</option>
-	        		<option value="평창군">평창군</option>
-	        		<option value="홍천군">홍천군</option>
-	        		<option value="화천군">화천군</option>
-	        		<option value="횡성군">횡성군</option>
 	        	</select>
-	        </em>-->
+	        </em>
 	
 	    </li>
 	</ul>

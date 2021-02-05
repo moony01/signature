@@ -89,6 +89,42 @@ function checkMemId(memId, memNickName){
 	}
 }
 
+function selectAdrs(){
+	var adrsSelect = document.getElementById("area1");
+	
+	// option value 가져오기
+	var value = adrsSelect.options[document.getElementById("area1").selectedIndex].value;
+	
+	console.log("value = ",value);
+	
+	var $area = document.getElementById("area3");
+	var area11 = "<option value='강릉시'>강릉시</option>"+
+				"<option value='고성군'>고성군</option>"+
+				"<option value='동해시'>동해시</option>"+
+				"<option value='삼척시'>삼척시</option>"+
+				"<option value='속초시'>속초시</option>"+
+				"<option value='양구군'>양구군</option>"+
+				"<option value='양양군'>양양군</option>"+
+				"<option value='영월군'>영월군</option>"+
+				"<option value='원주시'>원주시</option>"+
+				"<option value='인제군'>인제군</option>"+
+				"<option value='정선군'>정선군</option>"+
+				"<option value='철원군'>철원군</option>"+
+				"<option value='춘천시'>춘천시</option>"+
+				"<option value='태백시'>태백시</option>"+
+				"<option value='평창군'>평창군</option>"+
+				"<option value='홍천군'>홍천군</option>"+
+				"<option value='화천군'>화천군</option>"+
+				"<option value='횡성군'>횡성군</option>";
+				
+	if(value == '11') {
+		debugger;
+		console.log("if suc");
+		$area.innerHTML = area11;
+	}
+	
+	
+}
 </script>
 
 </html>
