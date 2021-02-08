@@ -9,7 +9,7 @@ blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
 input,select,textarea,button {font-size:100%;vertical-align:middle} 
 button {border:0 none;background-color:transparent;cursor:pointer} 
 table {border-collapse:collapse;border-spacing:0} 
-body {-webkit-text-size-adjust:none} /* 酉고몴�듃 蹂��솚�떆 �룿�듃�겕湲� �옄�룞�솗�� 諛⑹� */ 
+body {-webkit-text-size-adjust:none}
 input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; } 
 input:checked[type='checkbox'] {background-color:#666; -webkit-appearance:checkbox} 
 button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button;} 
@@ -25,7 +25,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .patten{ background: url(../imgs/patten.png); position: absolute; left:0; right:0; top:0; bottom:0 ; z-index:90}
 
 @media screen and (max-width:600px) {
-	.main_bg{ background:url(../imgs/main-bg2.jpg) no-repeat center top; height:200px; background-size:cover;  } 
+	.main_bg{ /* background:url(../imgs/main-bg2.jpg) no-repeat center top; */ height:200px; background-size:cover;  } 
 	#contents-box{ padding:20px; }   
 	.title{ text-align:center; font-size:23px; font-weight:700; line-height:28px}   
 	.main_bg h1{ text-align:center; font-size: 25px; font-weight:700; color:#fff; text-shadow:3px 3px 3px rgba(0,0,0,0.5); z-index:100; position:absolute; transform:translate(-50%,-50%); top:50%; left:50%; width:100%}
@@ -65,7 +65,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 }
 			
 @media screen and (min-width:600px){
-	.main_bg{ background:url(../imgs/main-bg2.jpg) no-repeat center top; height:380px; background-size:cover;  } 
+	.main_bg{ /* background:url(../imgs/main-bg2.jpg) no-repeat center top; */ height:380px; background-size:cover;  } 
 	#contents-box{ border:1px solid #dbdbdb; padding:40px; max-width:1000px; margin:20px auto} 
 	.title{ text-align:center; font-size:33px; font-weight:700; line-height:40px}
 	.main_bg h1{ text-align:center; font-size: 45px; font-weight:700; color:#fff; text-shadow:3px 3px 3px rgba(0,0,0,0.5); z-index:100; position:absolute; transform:translate(-50%,-50%); top:50%; left:50%; width:100%}

@@ -28,4 +28,9 @@ public class LoginServiceImpl implements LoginService {
 		loginDAO.signWrite(map);
 	}
 
+	@Override
+	public void memberSignCheck(Map<String, String> map) {
+		loginDAO.memberSignCheck(map);
+	}
+
 }

@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!-- CONTENT BOX : START -->
 <div id="contents-box">
-	<h2 class="title">동학농민혁명 125주년 및<br>3.1운동 100주년<br>일본제품 불매 및 친일청산<br>범국민 서명운동</h2>
+	<h2 class="title">텍스트텍스트텍스트<br>텍스트텍스트텍스트<br>텍스트텍스트텍스트텍스트텍스트<br>텍스트 텍스트</h2>
 	
 	<div class="sign-total">
 		<ul>
@@ -59,22 +59,20 @@
 	
 	<div style="display:none;" >
 	    <div class="sign-memo">
-	        <img src="/signature/shop/imgs/main-img.jpg" >
-	        <strong>- 동학농민혁명과 3.1운동을 승계한 우리시대의 독립운동이 시작되었습니다. </strong><br>
-			최근에 일어난 일본의 경제보복은 끊임없이 우리 강토와 국민을 침탈해온 일제의 또 다른 전쟁선포 행위이다.<br>뿌리 깊은 정한론에 따라 치밀하게 계획된 한국 침략행위이자 전면전이다.<br> <br> <br>
-	       	과거사를 부정하고, 우리 영토인 독도에 대해 영유권을 주장하며, 또 다른 침략전쟁을 위한 군사대국화를 추진하는 일본의 노골적 도발에 응전해야 한다.<br> <br> <br>
-	       	우리의 미래는 우리가 책임져야 한다.<br> 외세침탈과 체제모순에 목숨 걸고 맞섰던 동학농민혁명 정신과 일본군의 총칼 앞에서도 당당히 대한독립을 외쳤던 3.1운동 정신은 우리 모두에게 간직되어 있다. <br> <br>
-	      	이 시대가 우리 역사의 가장 멋진 시대로 기록될 수 있도록 우리 국민 한 사람, 한 사람이 역사의 주인공이 되어 보자.<br> 대한민국의 위대함을 온 세계에 보여주도록 하자. <br> <br>
-	        <strong>일본제품 불매운동은 동학농민혁명과 3.1운동에 기반을 둔 제2의 독립운동이다.</strong><br> 전 국민이 분연히 일어나 동참하여 지속함으로써 일본에 대한 경제예속에서 벗어나자! <br> <br>
-			<strong>친일잔재 청산을 위한 다양한 토론과 실천 활동이 시한 없이 전개되어야 한다.</strong> <br> 우리 안의 친일잔재를 깨끗하게 청산할 때 대한민국은 세계의 중심국으로 우뚝 서게 될 것이다. <br> <br>
-			주관: 일본제대로알기운동본부
+	        <img src="http://placehold.it/825x443" >
+	        <strong>- 텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트 </strong><br>
+			텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트<br>텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트<br> <br> <br>
+	       	텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트<br> <br> <br>
+	       	텍스트텍스트텍스트텍스트<br> 텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트. <br> <br>
+	      	텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트.<br> 텍스트텍스트텍스트텍스트텍스트텍스트. <br> <br>
+	        <strong>텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트.</strong><br> 텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트! <br> <br>
 	    </div>
 	
 	    <dl class="file-info">
 	        <dt>관련정보</dt>
 	        <dd>
-	            <a class="down" href="http://www.jjan.kr/news/articleView.html?idxno=2059309" target="blank">자료1. “북·꽹과리 들고 동학혁명군 선봉에 섰던 예인들의 넋 기려”</a>
-	            <a class="down" href="http://www.domin.co.kr/news/articleView.html?idxno=1260880" target="blank">자료2. 동학농민혁명 재인부대 추모제</a>
+	            <a class="down" href="http://www.jjan.kr/news/articleView.html?idxno=2059309" target="blank">자료1.텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트</a>
+	            <a class="down" href="http://www.domin.co.kr/news/articleView.html?idxno=1260880" target="blank">자료2.텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트</a>
 	        </dd>
 	    </dl>
 		<div style="position:relative; height:0px;padding-bottom: 56%; ">
@@ -90,13 +88,13 @@
 	    <h3 class="h3-title2" >온라인 서명하기</h3>
 	    <div class="sns-sc">
 	        <h4>SNS 공유하기</h4>
-	        <a href="javaScript:share_sns(1,'http://localhost:8080/','동학농민혁명 테스트 사이트')" 
+	        <a href="javaScript:share_sns(1,'http://localhost:8080/','테스트 사이트')" 
 			class="s-facebook" data-service="facebook" data-title="">페이스북</a>
 	
-			<a href="javaScript:share_sns(2,'http://localhost:8080/','동학농민혁명 테스트 사이트')" 
+			<a href="javaScript:share_sns(2,'http://localhost:8080/','테스트 사이트')" 
 			class="s-kakao" data-service="kakao" data-title="">카카오톡</a>
 	
-			<a href="javaScript:share_sns(3,'http://localhost:8080/','동학농민혁명 테스트 사이트')" 
+			<a href="javaScript:share_sns(3,'http://localhost:8080/','테스트 사이트')" 
 			class="s-band" data-service="band" data-title="">네이버밴드</a>
 	    </div>
 	</div>
@@ -107,7 +105,7 @@
 	    <div class="sign-form">
 	        <div class="sign-text-box">
 	            <div class="sign-text">
-	                본인은 동학농민혁명 125주년 및 3.1운동 100주년을 맞이하여 일본제품 불매 및 친일잔재 청산을 위한 온라인 서명에 동의합니다. <br>
+	              	 텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트 <br>
 	                <em>소셜로그인(카카오톡, 네이버, 페이스북)으로 온라인 서명을 하실 수 있습니다. 단 1인 1서명에 한합니다.
 	                <a href="./privacy.jsp" class="privacy"  target="_blank">개인정보 보호정책</a></em>
 	            </div>
@@ -120,13 +118,15 @@
 	<!-- logoutForm : END -->
 	
 	<!-- loginForm : START -->
-	<form action="./goSign" method="post" id="status_login" style="display: none;">
+	<form action="./goSign" method="post" name="status_login" id="status_login" onsubmit="return addrCheck()" style="display: none;">
 	
-	<input type="hidden" name="_token" value="ejYrNnqWthM6Dzr5db3Ob0smAyhVzvSIIV6svfSN">   
+	<input type="hidden" name="nickName" value="${memNickName}">
+	<input type="hidden" name="id" value="${memId}">
+	<input type="hidden" name="email" value="${memEmail}">
+	
 	<div class="sign-form">
 	<p>서명을 위하여 <strong>본인 이름을 확인<span style="font-weight:200 !important;">(다르면 수정)</span> </strong>하시고<strong> 거주지역을 선택</strong>해 주시기 바랍니다. 개인정보는 철저히 보호됩니다.</p>
 	<!-- <a href="./privacy.html" class="privacy"  target="_blank">개인정보 보호정책</a> -->
-	
 	
 	<ul class="sign-form-list">	  
 	    <li>
@@ -139,48 +139,57 @@
 	        <em>
 	        	<select name="area1" class="select-01" id="area1" onchange="selectAdrs()">
 	          		<option value="">광역시·도 선택</option>
-	        	  	<option value="11" >서울특별시</option>
-	        	  	<option value="26" >부산광역시</option>
-	        	  	<option value="27" >대구광역시</option>
-	        	  	<option value="28" >인천광역시</option>
-	        	  	<option value="29" >광주광역시</option>
-	        	  	<option value="30" >대전광역시</option>
-	        	  	<option value="31" >울산광역시</option>
-	        	  	<option value="36" >세종특별자치시</option>
-	        	  	<option value="41" >경기도</option>
-	        	  	<option value="42" >강원도</option>
-	        	  	<option value="43" >충청북도</option>
-	        	  	<option value="44" >충청남도</option>
-	        	  	<option value="45" >전라북도</option>
-	        	  	<option value="46" >전라남도</option>
-	        	  	<option value="47" >경상북도</option>
-	        	  	<option value="48" >경상남도</option>
-	        	  	<option value="50" >제주특별자치도</option>
+	        	  	<option value="01" >서울특별시</option>
+	        	  	<option value="02" >부산광역시</option>
+	        	  	<option value="03" >대구광역시</option>
+	        	  	<option value="04" >인천광역시</option>
+	        	  	<option value="05" >광주광역시</option>
+	        	  	<option value="06" >대전광역시</option>
+	        	  	<option value="07" >울산광역시</option>
+	        	  	<option value="08" >세종특별자치시</option>
+	        	  	<option value="09" >경기도</option>
+	        	  	<option value="10" >강원도</option>
+	        	  	<option value="11" >충청북도</option>
+	        	  	<option value="12" >충청남도</option>
+	        	  	<option value="13" >전라북도</option>
+	        	  	<option value="14" >전라남도</option>
+	        	  	<option value="15" >경상북도</option>
+	        	  	<option value="16" >경상남도</option>
+	        	  	<option value="17" >제주특별자치도</option>
 	        	</select>
 	        </em>
 	
-			<em><input name="area2" type="text" class="select-01" id="area2"  placeholder="주소입력" value="" style="width: 220px;"></em>
-	
-	        <em id="areaList">
+			<em id="areaList">
 	        	<select name="area3" class="select-01" id="area3">
 	          		<option value="">시·군·구 선택</option>
 	        	</select>
 	        </em>
 	
+			<em><input name="area2" type="text" class="select-01" id="area2"  placeholder="주소입력" value="" style="width: 220px;"></em>
 	    </li>
 	</ul>
 	
 	<div class="sign-text-box">
-	    <div class="sign-text">본인은 동학농민혁명 125주년 및 3.1운동 100주년을 맞이하여 일본제품 불매 및 친일잔재 청산을 위한 온라인 서명에 동의합니다. <br></div>
+	    <div class="sign-text">텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트. <br></div>
 	    <div class="btn-box"><input type="submit" value="동의합니다" class="btn" id="agree_btn" style="cursor:pointer;"></div>				 
 	</div>
-	
-	
 	
 	</div>
 	</form>
 	<!-- loginForm : END -->
 	
+	<!-- SIGN CHECK : START -->
+	<form action="" method="post" id="status_sign01" style="display: none;">
+	    <div class="sign-form">
+	        <div class="sign-text-box">
+	            <div class="sign-text">
+	            	서명을 완료했습니다.
+	            </div>
+	        </div>
+	    </div>
+		
+	</form>
+	<!-- SIGN CHECK : END -->
 	</div>
 	<!-- 온라인 서명 : END -->
 	  			

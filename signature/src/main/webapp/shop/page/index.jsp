@@ -8,12 +8,12 @@
 <meta charset="UTF-8">
 <meta name="format-detection" content="telephone=no" />
 <meta property="og:type" content="website">
-<meta property="og:title" content="JSP일본제품 불매 및 친일청산 범국민 서명운동">
-<meta property="og:url" content="https://no-jap.org">
-<meta property="og:description" content="JSP일본제품 불매 및 친일청산 범국민 서명운동">
+<meta property="og:title" content="서명 테스트 사이트">
+<!-- <meta property="og:url" content="https://no-jap.org"> -->
+<meta property="og:description" content="서명 테스트 사이트">
 <meta property="og:image" content="http://no-jap.org/signature/assets/imgs/main-img.jpg">
 
-<title>JSP일본제품 불매 및 친일청산 범국민 서명운동</title>
+<title>서명 사이트</title>
 
 <!-- LIB -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -26,7 +26,7 @@
 <div id="all">
 
 <div id="header">
-    <div class="main_bg"><h1>우리 시대의 독립운동이<br>시작되었습니다!</h1></div>
+    <div class="main_bg"><h1>텍스트텍스트텍스트텍스트<br>텍스트텍스트텍스트!</h1></div>
 	<div class="patten"></div>
 </div>
 	
@@ -34,7 +34,7 @@
   			
 <div id="footer">
 <div class="copyright">
-    <a class="onsite-logout">일본제대로알기운동본부(본부장 황호진)</a><br /> (전화: 063-276-4650, 팩스: 0504-489-3535, 이메일: dlgusco04@nate.com)
+    <a class="onsite-logout">텍스트텍스트텍스트텍스트</a><br /> 텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트텍스트
 </div>
 </div>
   			
@@ -42,16 +42,15 @@
 </body>
 <script type="text/javascript">
 
-
-
 $(document).ready(function() {
 	let memId = '${memId}';
 	let memNickName = '${memNickName}';
 	let memEmail = '${memEmail}';
+	let memSignCheck = '${memSignCheck}';
 
-	console.log("session = " + memId + ", " + memNickName + ", " + memEmail);
+	console.log("session = " + memId + ", " + memNickName + ", " + memEmail + ", " + memSignCheck);
 	
-	checkMemId(memId, memNickName);
+	checkMemId(memId, memNickName, memSignCheck);
 });
 
 
@@ -80,12 +79,19 @@ function share_sns(type,url,title){
     }
 }
 
-function checkMemId(memId, memNickName){
+function checkMemId(memId, memNickName, memSignCheck){
 	console.log("채크 함수 실행" + memId+ memNickName);
 	
-	if(memId != '') {
+	if(memSignCheck == '' || memSignCheck == null && memId != '') {
 		$("#status_logout").hide();
+		$("#status_sign01").hide();
 		$("#status_login").show();
+	}
+	
+	if(memSignCheck == '1' || memSignCheck == 1) {
+		$("#status_logout").hide();
+		$("#status_login").hide();
+		$("#status_sign01").show();
 	}
 }
 
@@ -95,10 +101,19 @@ function selectAdrs(){
 	// option value 가져오기
 	var value = adrsSelect.options[document.getElementById("area1").selectedIndex].value;
 	
-	console.log("value = ",value);
-	
 	var $area = document.getElementById("area3");
-	var area11 = "<option value='강릉시'>강릉시</option>"+
+	
+	var area01 = "<option value='강남구'>강남구</option>"+
+				"<option value='강동구'>강동구</option>"+
+				"<option value='강북구'>강북구</option>"+
+				"<option value='강서구'>강서구</option>"+
+				"<option value='관악구'>관악구</option>"+
+				"<option value='광진구'>광진구</option>"+
+				"<option value='구로구'>구로구</option>";
+	
+	var area02 = "<option value=''>시·군·구 선택</option>";
+				
+	var area10 = "<option value='강릉시'>강릉시</option>"+
 				"<option value='고성군'>고성군</option>"+
 				"<option value='동해시'>동해시</option>"+
 				"<option value='삼척시'>삼척시</option>"+
@@ -117,13 +132,81 @@ function selectAdrs(){
 				"<option value='화천군'>화천군</option>"+
 				"<option value='횡성군'>횡성군</option>";
 				
+	if(value == '01') {
+		$area.innerHTML = area01;
+	}
+	if(value == '02') {
+		$area.innerHTML = area02;
+	}
+	if(value == '03') {
+		$area.innerHTML = area02;
+	}
+	if(value == '04') {
+		$area.innerHTML = area02;
+	}
+	if(value == '05') {
+		$area.innerHTML = area02;
+	}
+	if(value == '06') {
+		$area.innerHTML = area02;
+	}
+	if(value == '07') {
+		$area.innerHTML = area02;
+	}
+	if(value == '08') {
+		$area.innerHTML = area02;
+	}
+	if(value == '09') {
+		$area.innerHTML = area02;
+	}
+	if(value == '10') {
+		$area.innerHTML = area10;
+	}
 	if(value == '11') {
-		debugger;
-		console.log("if suc");
-		$area.innerHTML = area11;
+		$area.innerHTML = area02;
+	}
+	if(value == '12') {
+		$area.innerHTML = area02;
+	}
+	if(value == '13') {
+		$area.innerHTML = area02;
+	}
+	if(value == '14') {
+		$area.innerHTML = area02;
+	}
+	if(value == '15') {
+		$area.innerHTML = area02;
+	}
+	if(value == '16') {
+		$area.innerHTML = area02;
+	}
+	if(value == '17') {
+		$area.innerHTML = area02;
+	}
+}
+
+function addrCheck() {
+
+	if(status_login.area1.value == "") {
+		alert("광역시,도를 선택해 주세요.");
+		status_login.area1.focus();
+		return false;
 	}
 	
+	else if(status_login.area2.value == "") {
+		alert("시군구를 선택해 주세요.");
+		status_login.area2.focus();
+		return false;
+	}
 	
+	else if(status_login.area3.value == "") {
+		alert("값을 입력해 주세요.");
+		status_login.area3.focus();
+		return false;
+	}
+
+	else return true;
+
 }
 </script>
 

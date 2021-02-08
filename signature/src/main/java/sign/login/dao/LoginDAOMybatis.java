@@ -30,7 +30,10 @@ public class LoginDAOMybatis implements LoginDAO {
 		sqlSession.insert("loginSQL.signWrite", map);
 	}
 
-
-	
+	@Override
+	public void memberSignCheck(Map<String, String> map) {
+		System.out.println("map :::"+map);
+		sqlSession.update("loginSQL.memberSignCheck", map);
+	}
 	
 }

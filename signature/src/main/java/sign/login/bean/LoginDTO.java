@@ -16,4 +16,5 @@ public class LoginDTO {
 	private String email;
 	@JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy.MM.dd")
 	private Date logtime;
+	private String signCheck;
 }

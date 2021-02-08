@@ -12,4 +12,6 @@ public interface LoginService {
 
 	public void signWrite(Map<String, String> map);
 
+	public void memberSignCheck(Map<String, String> map);
+
 }

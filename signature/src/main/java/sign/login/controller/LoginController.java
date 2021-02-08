@@ -42,16 +42,13 @@ public class LoginController {
 	  if(loginDTO == null) {
 	    System.out.println("데이터 없음");
 	    loginService.writeMember(map);
-	  } else {
-	    System.out.println("데이터 있음");
+	    loginDTO = loginService.getUserBy(map);
 	  }
-
-	  LoginDTO loginDTO1 = loginService.getUserBy(map);
-	  session.setAttribute("memId", loginDTO1.getId());
-	  session.setAttribute("memNickName", loginDTO1.getNickName());
-	  session.setAttribute("memEmail", loginDTO1.getEmail());
-
-	  System.out.println("session = " + session);
+	  System.out.println("loginDTO = "+loginDTO);
+	  session.setAttribute("memId", loginDTO.getId());
+	  session.setAttribute("memNickName", loginDTO.getNickName());
+	  session.setAttribute("memEmail", loginDTO.getEmail());
+	  session.setAttribute("memSignCheck", loginDTO.getSignCheck());
 	  
 	}
 	
@@ -63,7 +60,8 @@ public class LoginController {
 		
 		System.out.println("goSign 진입" + map);
 		
-		loginService.signWrite(map);
+		loginService.signWrite(map); // 서명하기
+		loginService.memberSignCheck(map); // 서명채크여부변경
 		
 		mav.setViewName("/shop/page/goSign");
 		return mav;

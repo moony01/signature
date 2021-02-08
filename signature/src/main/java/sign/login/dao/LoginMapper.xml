@@ -13,4 +13,8 @@
 	<insert id="signWrite" parameterType="String">
 		insert into signature (name, area1, area2) values (#{agree_name}, #{area1}, #{area2})
 	</insert>
+	
+	<update id="memberSignCheck" parameterType="java.util.Map">
+		update member set signCheck = '1', logTime = sysDate where nickname = #{nickName} and id = #{id}
+	</update>
 </mapper>
